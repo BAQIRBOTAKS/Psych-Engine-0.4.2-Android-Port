@@ -901,11 +901,11 @@ class PlayState extends MusicBeatState
 		add(iconP2);
 		reloadHealthBarColors();
          
-        var creditTxt:FlxText = new FlxText(4,healthBarBG.y + 18,0,("Port by BAQIRBOTAKS! "), 27);
+        var creditTxt:FlxText = new FlxText(8,healthBarBG.y + 16,0,("Port by BAQIRBOTAKS! "), 30);
         creditTxt.scrollFactor.set();
         creditTxt.setFormat("VCR OSD Mono", 24, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         creditTxt.borderColor = FlxColor.BLACK;
-        creditTxt.borderSize = 6;
+        creditTxt.borderSize = 1;
         creditTxt.borderStyle = FlxTextBorderStyle.OUTLINE;
         add(creditTxt);
          
